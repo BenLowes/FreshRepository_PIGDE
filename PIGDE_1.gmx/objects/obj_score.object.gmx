@@ -55,15 +55,28 @@ global.waterp4 = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_white);
+            <string>/*
+draw_set_colour(c_white);
 draw_text(obj_player1.x, obj_player1.y - 40, global.pointsp1);
 draw_set_colour(c_red);
 draw_text(obj_player2.x + 5, obj_player2.y - 40, global.pointsp2);
-/*
 draw_set_colour(c_aqua);
 draw_text(view_xview, (view_yview + 12), global.waterp1);
 */
 
+
+/// Draw the coins
+//set offset
+yoffset = 4
+///Use a for loop to draw coins according to players score
+for (var i=0; i&lt;global.pointsp1; i++){
+draw_sprite(spr_sidecoin, 0, obj_player1.x+4, obj_player1.y-40-(yoffset*i));
+}
+
+//repeat for player 2 with the respective variables
+for (var i=0; i&lt;global.pointsp2; i++){
+draw_sprite(spr_sidecoin, 0, obj_player2.x+4, obj_player2.y-40-(yoffset*i));
+}
 </string>
           </argument>
         </arguments>
