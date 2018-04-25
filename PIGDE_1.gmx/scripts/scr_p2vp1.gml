@@ -7,7 +7,6 @@ if (global.pointsp1 > 0)
 global.pointsp1 = global.pointsp1 - 1;
 }
 draw_set_colour(c_aqua)
-draw_text(obj_player2.x, obj_player2.y, "Ouchie!");
+scr_message("Ouchie!", obj_player1.x, obj_player1.y)
 }
- 
 

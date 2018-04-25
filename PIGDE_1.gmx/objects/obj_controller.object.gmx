@@ -32,7 +32,7 @@ obj_player1.player_y = obj_player1.ystart;
 obj_player2.player_x = obj_player2.xstart;
 obj_player2.player_y = obj_player2.ystart;
 
-
+/*
 obj_player3.player_x = obj_player3.xstart;
 obj_player3.player_y = obj_player3.ystart;
 
@@ -40,6 +40,9 @@ obj_player3.player_y = obj_player3.ystart;
 obj_player4.player_x = obj_player4.xstart;
 obj_player4.player_y = obj_player4.ystart;
 */
+
+global.player1Speed = 1.0;
+global.player2Speed = 1.0;
 </string>
           </argument>
         </arguments>

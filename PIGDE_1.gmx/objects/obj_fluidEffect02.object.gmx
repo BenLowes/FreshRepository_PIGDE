@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.water &gt;= 1)
+            <string>if (global.waterp1 &gt;= 1)
 {
-global.water = global.water - 1;
+global.waterp1 = global.waterp1 - 1;
+global.player1Speed = global.player1Speed - 0.2;
 }
 </string>
           </argument>
