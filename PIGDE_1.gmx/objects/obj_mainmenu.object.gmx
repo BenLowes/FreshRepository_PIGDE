@@ -67,7 +67,7 @@ if (mpos &gt; array_length_1d(menu) - 1) mpos = 0;
 
 var push;
 push = max(keyboard_check_pressed(vk_space), keyboard_check_pressed(vk_enter));
-if (push == 1) scr_menu();
+if (push == 1) scr_mainmenu();
 </string>
           </argument>
         </arguments>

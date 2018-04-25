@@ -55,57 +55,28 @@ global.waterp4 = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/* 
+            <string>/*
 draw_set_colour(c_white);
 draw_text(obj_player1.x, obj_player1.y - 40, global.pointsp1);
 draw_set_colour(c_red);
 draw_text(obj_player2.x + 5, obj_player2.y - 40, global.pointsp2);
-
+draw_set_colour(c_aqua);
+draw_text(view_xview, (view_yview + 12), global.waterp1);
 */
 
-//Visualise the coins
 
-yoffset = -4;
-
-///Use a for loop - player one
+/// Draw the coins
+//set offset
+yoffset = 4
+///Use a for loop to draw coins according to players score
 for (var i=0; i&lt;global.pointsp1; i++){
-draw_sprite(spr_sidecoin, 0, obj_player1.x, obj_player1.y-40+(yoffset*i));
+draw_sprite(spr_sidecoin, 0, obj_player1.x+4, obj_player1.y-40-(yoffset*i));
 }
 
-
-//Use a for loop - playe two
-for (var z=0; z&lt;global.pointsp2; z++){
-draw_sprite(spr_sidecoin, 0, obj_player2.x, obj_player2.y-40+(yoffset*z));
+//repeat for player 2 with the respective variables
+for (var i=0; i&lt;global.pointsp2; i++){
+draw_sprite(spr_sidecoin, 0, obj_player2.x+4, obj_player2.y-40-(yoffset*i));
 }
-
-///Use a switch case for water
-
-switch (global.waterp1)
-{
-case 0:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break; 
-case 1:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-case 2:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-case 3:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-case 4:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-case 5:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-default:
-draw_sprite(spr_bottle005, 0, obj_player1.x-32, obj_player1.y-60);
-break;
-}
-
-
 </string>
           </argument>
         </arguments>
