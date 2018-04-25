@@ -68,11 +68,13 @@
     <sprite>sprites\spr_start</sprite>
     <sprite>sprites\spr_playagain</sprite>
     <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\wallplan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
     <background>background\HousePartyFirst</background>
     <background>background\Shop</background>
+    <background>background\full_environment</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -83,10 +85,6 @@
     <script>scripts\scr_endmenu.gml</script>
   </scripts>
   <objects name="objects">
-    <objects name="GUIObjects">
-      <object>objects\obj_coinStats</object>
-      <object>objects\obj_waterStats</object>
-    </objects>
     <objects name="EffectObjects">
       <objects name="MoneyEffects">
         <object>objects\obj_moneyEffect01</object>
@@ -129,10 +127,13 @@
     <object>objects\obj_mainmenu</object>
     <object>objects\obj_endmenu</object>
     <object>objects\obj_music</object>
+    <object>objects\obj_wallplan</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room5</room>
     <room>rooms\Main_Menu</room>
     <room>rooms\Party_House_Ground_Floor</room>
+    <room>rooms\room6</room>
     <room>rooms\Party_House_First_Floor</room>
     <room>rooms\rm_shop</room>
     <room>rooms\End_Menu</room>
