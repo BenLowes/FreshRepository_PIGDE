@@ -58,7 +58,7 @@
     <instance objName="wallDecorGround" x="502" y="1781" name="inst_CC5FC2C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="96" y="64" name="inst_0ABBCA08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="32" y="160" name="inst_18C1DA50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1248" y="3136" name="inst_E0FCDBCA" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect02" x="1920" y="2176" name="inst_2A52FADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallH" x="4" y="0" name="inst_A23F5D5F" locked="0" code="" scaleX="119.65625" scaleY="1.42857146263123" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallH" x="2" y="3488" name="inst_34C9BF5C" locked="0" code="" scaleX="119.838706970215" scaleY="1.28999996185303" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallV" x="2" y="1" name="inst_1C8D20E0" locked="0" code="" scaleX="0.3125" scaleY="27.265625" colour="4294967295" rotation="0"/>
@@ -125,19 +125,18 @@
     <instance objName="obj_wallH" x="1982" y="2391" name="inst_5B381901" locked="0" code="" scaleX="2.27999997138977" scaleY="1.625" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallV" x="1775" y="3149" name="inst_43B7EEBC" locked="0" code="" scaleX="0.677419364452362" scaleY="0.834645688533783" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallV" x="2365" y="3078" name="inst_FDEC4060" locked="0" code="" scaleX="0.74193549156189" scaleY="1.4765625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="1408" y="2848" name="inst_64B204EF" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_comma_coin" x="2592" y="2080" name="inst_04A5894B" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="1632" y="2720" name="inst_A5617443" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="2176" y="3040" name="inst_6D73EAF9" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="1248" y="2688" name="inst_7ED13341" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="1600" y="2400" name="inst_9FEB8FDE" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2016" y="2432" name="inst_C9AF0A4C" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lockedDoor" x="2394" y="2578" name="inst_99EAA5D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="2208" y="2400" name="inst_E6435BB0" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_comma_coin" x="2240" y="2848" name="inst_5C1F233A" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2528" y="2400" name="inst_D444DAEE" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2592" y="2080" name="inst_04A5894B" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_comma_coin" x="2528" y="3072" name="inst_601E4120" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lockedDoor" x="2394" y="2578" name="inst_99EAA5D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fluidEffect02" x="1920" y="2176" name="inst_2A52FADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffect01" x="2432" y="3200" name="inst_E7405402" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1184" y="3232" name="inst_D525AAB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="2432" y="2432" name="inst_3580F44E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fluidEffectPos" x="1564" y="2882" name="inst_C94C8BB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

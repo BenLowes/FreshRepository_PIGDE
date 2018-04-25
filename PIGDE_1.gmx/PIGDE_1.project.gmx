@@ -62,6 +62,7 @@
     <sprite>sprites\spr_smallCoin</sprite>
     <sprite>sprites\spr_greyCoin</sprite>
     <sprite>sprites\spr_waterBottle</sprite>
+    <sprite>sprites\spr_waterBottle2</sprite>
     <sprite>sprites\spr_CommaCoin</sprite>
     <sprite>sprites\spr_sidecoin</sprite>
     <sprite>sprites\spr_arrow</sprite>
@@ -79,24 +80,22 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\textmessage.gml</script>
-    <script>scripts\collectibles.gml</script>
+    <script>scripts\scr_waterRespawn.gml</script>
+    <script>scripts\scr_effectRespawn.gml</script>
     <script>scripts\scr_message.gml</script>
     <script>scripts\scr_mainmenu.gml</script>
+    <script>scripts\scr_p1winmenu.gml</script>
+    <script>scripts\scr_p2winmenu.gml</script>
     <script>scripts\scr_endmenu.gml</script>
     <script>scripts\scr_p1vp2.gml</script>
     <script>scripts\scr_p2vp1.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="EffectObjects">
-      <objects name="MoneyEffects">
-        <object>objects\obj_moneyEffect01</object>
-        <object>objects\obj_moneyEffect02</object>
-        <object>objects\obj_moneyEffect03</object>
-      </objects>
       <objects name="FluidEffects">
         <object>objects\obj_fluidEffect01</object>
-        <object>objects\obj_fluidEffectPos</object>
         <object>objects\obj_fluidEffect02</object>
+        <object>objects\obj_fluidEffectPos</object>
       </objects>
       <object>objects\message</object>
     </objects>
@@ -127,6 +126,8 @@
     <object>objects\obj_score</object>
     <object>objects\obj_winCondition</object>
     <object>objects\obj_mainmenu</object>
+    <object>objects\obj_p1win</object>
+    <object>objects\obj_p2win</object>
     <object>objects\obj_endmenu</object>
     <object>objects\obj_music</object>
     <object>objects\obj_wallplan</object>
@@ -134,6 +135,8 @@
   <rooms name="rooms">
     <room>rooms\room5</room>
     <room>rooms\Main_Menu</room>
+    <room>rooms\p1_win</room>
+    <room>rooms\p2_win</room>
     <room>rooms\Party_House_Ground_Floor</room>
     <room>rooms\room6</room>
     <room>rooms\Party_House_First_Floor</room>
