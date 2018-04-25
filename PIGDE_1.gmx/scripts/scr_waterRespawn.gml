@@ -3,8 +3,8 @@
 
 randomize();
 
-irandom(9);
-global.effect = irandom;
+var i = irandom(9);
+global.effect = i;
 
 switch (global.effect)
 { case 0:
