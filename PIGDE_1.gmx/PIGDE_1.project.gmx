@@ -84,6 +84,7 @@
     <script>scripts\scr_mainmenu.gml</script>
     <script>scripts\scr_endmenu.gml</script>
     <script>scripts\scr_p1vp2.gml</script>
+    <script>scripts\scr_p2vp1.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="EffectObjects">
