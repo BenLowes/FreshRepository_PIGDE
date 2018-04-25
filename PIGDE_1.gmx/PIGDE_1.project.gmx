@@ -64,8 +64,12 @@
     <sprite>sprites\spr_waterBottle</sprite>
     <sprite>sprites\spr_CommaCoin</sprite>
     <sprite>sprites\spr_start</sprite>
+    <sprite>sprites\spr_playagain</sprite>
     <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_sidecoin</sprite>
+    <sprite>sprites\spr_bottle001</sprite>
+    <sprite>sprites\spr_bottle005</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -78,6 +82,7 @@
     <script>scripts\collectibles.gml</script>
     <script>scripts\scr_message.gml</script>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_endmenu.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="GUIObjects">
@@ -125,9 +130,14 @@
     <object>objects\obj_winCondition</object>
     <object>objects\obj_music</object>
     <object>objects\obj_mainmenu</object>
+    <object>objects\obj_endmenu</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
+    <room>rooms\End_Menu</room>
     <room>rooms\Party_House_Ground_Floor</room>
     <room>rooms\Party_House_First_Floor</room>
     <room>rooms\rm_shop</room>
