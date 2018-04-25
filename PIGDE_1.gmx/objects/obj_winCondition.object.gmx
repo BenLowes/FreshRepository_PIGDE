@@ -63,6 +63,7 @@
 {
 
     textmessage("You won!", x, y);
+    
 }
     else if (global.pointsp1 &lt; 5)
     {

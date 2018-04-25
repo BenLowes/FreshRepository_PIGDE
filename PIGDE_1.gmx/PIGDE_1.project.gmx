@@ -84,6 +84,7 @@
     <script>scripts\scr_mainmenu.gml</script>
     <script>scripts\scr_endmenu.gml</script>
     <script>scripts\scr_p1vp2.gml</script>
+    <script>scripts\scr_p2vp1.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="EffectObjects">
@@ -131,13 +132,13 @@
     <object>objects\obj_wallplan</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room5</room>
     <room>rooms\Main_Menu</room>
+    <room>rooms\End_Menu</room>
+    <room>rooms\room5</room>
     <room>rooms\Party_House_Ground_Floor</room>
     <room>rooms\room6</room>
     <room>rooms\Party_House_First_Floor</room>
     <room>rooms\rm_shop</room>
-    <room>rooms\End_Menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

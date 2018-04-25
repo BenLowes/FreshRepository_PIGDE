@@ -57,23 +57,75 @@ global.waterp4 = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Draw coin above player 1
+            <string>depth=-2;
+//Draw coin above player 1
 draw_sprite(spr_sidecoin, 0, obj_player1.x+2, obj_player1.y-40);
 draw_set_colour(c_aqua);
-draw_text(obj_player1.x+2, obj_player1.y-50, global.pointsp1)
+draw_text(obj_player1.x+4, obj_player1.y-60,global.pointsp1)
+
+//Draw bottle above player 1
+draw_sprite(spr_waterBottle, 0, obj_player1.x-10, obj_player1.y-36);
+draw_set_colour(c_aqua);
+draw_text(obj_player1.x-14, obj_player1.y-60,global.waterp1)
 
 
 //Draw coin above player 2
 draw_sprite(spr_sidecoin, 0, obj_player2.x+2, obj_player2.y-40);
 draw_set_colour(c_fuchsia);
-draw_text(obj_player2.x+2, obj_player2.y-50, global.pointsp2)
+draw_text(obj_player2.x+4, obj_player2.y-60,global.pointsp2)
 
+//Draw bottle above player 2
+draw_sprite(spr_waterBottle, 0, obj_player2.x-10, obj_player2.y-36);
+draw_set_colour(c_fuchsia);
+draw_text(obj_player2.x-14, obj_player2.y-60,global.waterp2)
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="17">
+    <event eventtype="10" enumb="96">
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_p2vp1</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="69">
       <action>
         <libid>1</libid>
         <id>601</id>
@@ -94,15 +146,15 @@ draw_text(obj_player2.x+2, obj_player2.y-50, global.pointsp2)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"Ouchie!"</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>x</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>y</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>

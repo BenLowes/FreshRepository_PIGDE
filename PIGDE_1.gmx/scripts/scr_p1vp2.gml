@@ -6,7 +6,7 @@ if (global.pointsp2 > 0)
 {
 global.pointsp2 = global.pointsp2 - 1;
 }
-draw_set_colour(c_fuchsia)
+draw_set_colour(c_fuchsia);
 scr_message("Ouchie!", obj_player2.x, obj_player2.y)
 }
   
