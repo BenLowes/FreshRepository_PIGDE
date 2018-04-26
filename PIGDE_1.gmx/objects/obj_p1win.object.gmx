@@ -33,7 +33,6 @@ space = 64
 mpos = 0;
 
 
-
 </string>
           </argument>
         </arguments>
@@ -97,11 +96,7 @@ if (push == 1) scr_p1winmenu();
 draw_set_valign(fa_middle);
 
 var m;
-for (m = 0; m &lt; array_length_1d(menu); m += 1)
-{
-draw_sprite(spr_player1win,0, 512,400);
 
-}
 
 draw_sprite(sprite_index, 0, x+16, y + mpos * space);
 

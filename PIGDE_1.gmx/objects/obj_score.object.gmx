@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.pointsp1 = 0;
+            <string>global.pointsp1 = 5;
 global.waterp1 = 5;
-global.pointsp2 = 0;
+global.pointsp2 = 5;
 global.waterp2 = 5;
 global.pointsp3 = 0;
 global.waterp3 = 5;
