@@ -107,6 +107,10 @@
       <object>objects\obj_player2</object>
       <object>objects\obj_player3</object>
       <object>objects\obj_player4</object>
+      <object>objects\obj_player2lose</object>
+      <object>objects\obj_player2win</object>
+      <object>objects\obj_player1lose</object>
+      <object>objects\obj_player1win</object>
     </objects>
     <objects name="WallObjects">
       <object>objects\wallDecorGround</object>
