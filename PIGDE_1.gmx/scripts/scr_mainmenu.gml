@@ -1,7 +1,7 @@
 switch (mpos)
 {
     case 0:
-    { room_goto(Party_House_Ground_Floor);
+    { room_goto(room5);
     }
     break;
     

@@ -28,7 +28,7 @@
             <string>if (global.waterp2 &lt; 5)
 {
 global.waterp2 = global.waterp2 + 1;
-global.player2Speed = global.player2Speed - 0.2;
+global.player2Speed = global.player2Speed + 0.2;
 }
 </string>
           </argument>

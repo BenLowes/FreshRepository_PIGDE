@@ -32,10 +32,10 @@ left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
-if(right) x += 6;
-if(left) x -= 6;
-if(up) y -= 6;
-if(down) y += 6;
+if(right) x += 6 * global.player2Speed;
+if(left) x -= 6 * global.player2Speed;
+if(up) y -= 6 * global.player2Speed;
+if(down) y += 6 * global.player2Speed;
 
 </string>
           </argument>

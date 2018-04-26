@@ -70,6 +70,9 @@
     <sprite>sprites\spr_playagain</sprite>
     <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\wallplan</sprite>
+    <sprite>sprites\spr_Rules</sprite>
+    <sprite>sprites\spr_enter</sprite>
+    <sprite>sprites\spr_winText</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\HousePartyGround</background>
@@ -131,16 +134,14 @@
     <object>objects\obj_endmenu</object>
     <object>objects\obj_music</object>
     <object>objects\obj_wallplan</object>
+    <object>objects\obj_rules</object>
+    <object>objects\obj_win_text</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room5</room>
     <room>rooms\Main_Menu</room>
+    <room>rooms\room5</room>
     <room>rooms\p1_win</room>
     <room>rooms\p2_win</room>
-    <room>rooms\Party_House_Ground_Floor</room>
-    <room>rooms\room6</room>
-    <room>rooms\Party_House_First_Floor</room>
-    <room>rooms\rm_shop</room>
     <room>rooms\End_Menu</room>
   </rooms>
   <help>
